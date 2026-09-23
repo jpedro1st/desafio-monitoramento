@@ -1,7 +1,7 @@
 Desafio de Monitoramento de Temperatura
 
 1- Identificação
-Nome do aluno: Arthur Teodoro Severo Disciplina: Analise e desenvolvimeto de sistemas Professora: Profa. Karla Sartin Título do projeto: Sistema de Monitoramento de Temperatura
+Nome do aluno: João Pedro Santos da Silva Disciplina: Analise e desenvolvimeto de sistemas Professora: Profa. Karla Sartin Título do projeto: Sistema de Monitoramento de Temperatura
 
 2- Objetivo
 O objetivo deste projeto é desenvolver um programa em linguagem C para monitorar temperaturas informadas pelo usuário.
@@ -33,7 +33,7 @@ Quando o valor digitado não é numérico, uma mensagem de erro é apresentada e
 
 Exemplo:
 
-Digite a temperatura: abc Entrada invalida! Digite um numero. Digite a temperatura:
+Digite a temperatura: aaa Entrada invalida! Digite um numero. Digite a temperatura:
 
 Identificação de temperaturas acima do limite
 
@@ -43,7 +43,7 @@ Exemplo:
 
 Limite: 30
 
-Temperatura: 32 Temperatura acima do limite! Temperaturas consecutivas acima do limite: 1
+Temperatura: 31 Temperatura acima do limite! Temperaturas consecutivas acima do limite: 1
 
 Contagem de temperaturas consecutivas
 
@@ -53,7 +53,7 @@ Se a temperatura estiver dentro do limite, a contagem volta para zero.
 
 Exemplo:
 
-32 -> acima do limite -> consecutivas = 1 33 -> acima do limite -> consecutivas = 2 29 -> dentro do limite -> consecutivas = 0 35 -> acima do limite -> consecutivas = 1
+31 -> acima do limite -> consecutivas = 1 29 -> dentro do limite -> consecutivas = 0 33 -> acima do limite -> consecutivas = 1 28 -> abaixo do limite -> consecutivas = 0 34 -> acima do limite -> consecutivas = 1
 
 Isso significa que somente temperaturas acima do limite sem interrupção são consideradas consecutivas.
 
@@ -65,11 +65,11 @@ Exemplo:
 
 Limite: 30
 
-Temperatura: 31 Consecutivas: 1
+Temperatura: 30 Consecutivas: 1
 
-Temperatura: 32 Consecutivas: 2
+Temperatura: 40 Consecutivas: 2
 
-Temperatura: 35 Consecutivas: 3
+Temperatura: 50 Consecutivas: 3
 
 ALERTA: 3 temperaturas consecutivas acima do limite. Monitoramento encerrado automaticamente.
 
